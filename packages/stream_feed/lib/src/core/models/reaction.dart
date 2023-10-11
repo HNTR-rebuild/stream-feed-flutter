@@ -87,7 +87,7 @@ class Reaction extends Equatable {
 
   /// Additional data to attach to the reaction
   @JsonKey(includeIfNull: false)
-  final Map<String, Object>? data;
+  final Map<String, Object?>? data;
 
   /// Children reactions, grouped by reaction type.
   @JsonKey(includeIfNull: false, toJson: Serializer.readOnly)
