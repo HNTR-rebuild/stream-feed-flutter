@@ -18,7 +18,6 @@ dependencies:
   stream_feed:
     git:
       url: https://github.com/HNTR-rebuild/stream-feed-flutter.git
-      ref: 8571ed35be2d41c7d653ec87e7767b0bb888dc54
       path: packages/stream_feed
 dev_dependencies:
   flutter_test:
